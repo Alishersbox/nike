@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.boxing {
+  width: 606px;
+  height: 606px;
+  border: 3px solid #000;
+  margin: 50px auto;
+  position: relative;
+}
+.box {
+  position: absolute;
+}
+.boxOne {
+  width: 200px;
+  height: 200px;
+  background: pink;
+
+  top: 0;
+  left: 0;
+}
+
+.boxTwo {
+  width: 200px;
+  height: 200px;
+  background: blue;
+
+  top: 0;
+  right: 0;
+}
+.boxThree {
+  width: 200px;
+  height: 200px;
+  background: yellow;
+  bottom: 0;
+  left: 0;
+}
+
+.boxFour {
+  width: 200px;
+  height: 200px;
+  background: red;
+  bottom: 0;
+  right: 0;
+}
+
+.boxFive {
+  width: 200px;
+  height: 200px;
+  background: green;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+}
